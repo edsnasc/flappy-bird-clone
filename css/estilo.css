@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/Oswald-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Pixel';
+    src: url('../fonts/Pixel.ttf');
+}
+
+* {
+    font-family: 'Pixel', sans-serif;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(to right, rgb(20, 30, 48), rgb(36, 59, 85));
+    color: #fff;
+    height: 100%;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100%;
+}
+
+.exercicio div {
+    font-size: 3em;
+    border: solid 5px #fff;
+    padding: 20px 40px;
+    margin: 10px;
+}
+
+.exercicio div:nth-of-type(1) {
+    background-color: darkgoldenrod;
+}
+
+.exercicio div:nth-of-type(2) {
+    background-color: crimson;
+}
+
+.exercicio div:nth-of-type(3) {
+    background-color: darkcyan;
+}
+
+.exercicio div:nth-of-type(4) {
+    background-color: darkorchid;
+}
+
+.exercicio .destaque {
+    border: solid 10px greenyellow;
+    color: greenyellow;
+    font-weight: bold;
+}
+
+.reset {
+    width: 9rem;
+    padding: 0;
+    border: none;
+    border-radius: 2rem;
+    background-color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.2rem;
+    outline: none;
+    cursor: pointer;
+    transition: background-color .2s; 
+}
+
+.reset:hover {
+    background-color: rgb(255, 217, 0);
+    padding: .1rem;
+}
+
