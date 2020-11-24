@@ -39,7 +39,7 @@ This project was developed with the following technologies:
 1. Clone the repository:
 
    ```bash
-   $ git clone https://github.com/
+   $ git clone https://github.com/edsnasc/flappy-bird-clone.git
    ```
 2. run in your browser   
 
