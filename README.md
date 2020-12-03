@@ -20,7 +20,7 @@
 
 This game is not the original version
 
-# Look 🛰
+# Preview 🛰
 
 <p align="center">
   <img alt="Happy" src="https://media.giphy.com/media/LU7TVQNtSVzD45CGmD/giphy.gif">
